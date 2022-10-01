@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100%;
+    font-family: 'Inter';
+}
+
+section {
+    background-color: rgb(22, 20, 20);
+    color: rgb(255, 255, 255);
+    border: auto;
+}
+
+.section-nav {
+    border-bottom: 1px solid white;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    font-weight: bold;
+    padding: 0%;
+    width: 85%;
+    color: white
+}
+
+.navbarlist {
+    display: flex;
+    padding: 30px;
+    margin-right: 10px;
+    list-style: none;
+}
+
+.navbarlist li {
+    margin-right: 10px;
+    padding: 0 7%;
+    font-size: 16px;
+}
+
+.section-two {
+    display: flex;
+    padding: 6.5% 15%;
+}
+
+.principal__right img {
+    width: 534px;
+    height: 534px;
+}
+.icone{
+    width: 22px;
+    height: 22px;
+}
+.principal__right,
+.principal__left{
+    width: 50%;
+}
+.principal-sentece{
+    font-size: 50px;
+}
+.principal__left h1,h2,h3,h4{
+    margin-top: 20px; 
+}
+.principal__left{
+    margin: 50px;
+    padding: 70px;
+    border: 1px solid white 
+}
+.footerUm{
+    background-color: #0c0b0b;
+    color: white;
+    padding: 2%;
+    width: auto;
+    text-align: center;
+    font: 100
+}
+.imagemTres{
+    width: 20px;
+    height: 20px;
+    color: white;
+}
